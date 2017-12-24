@@ -1,0 +1,204 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+	.head-of-page {
+		width: 100%
+		padding: 0 2%;
+	}
+
+	.row {
+		padding: 0 2%;
+	}
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 19px;
+	}
+
+	section {
+	    padding: 60px 0;
+    }
+
+    .head-of-page {
+    	width: 100%;
+    	padding: 0 2%;
+    	margin-top: 6%;
+    }
+
+    .row {
+    	padding: 0 2%;
+    }
+
+    .features-para {
+	    width: 85%;
+	    margin-left: 10%;
+    } 
+
+    .box {
+    	margin-top: 10px;
+    }
+
+    .steps {
+    	margin-bottom: 20px;
+    }
+
+    .btn-app img {
+        height: 40px;
+        width: auto;
+    }
+
+    .phone-screen {
+    	width: 60%;
+    }
+
+    .plans {
+    	width: 90%;
+    	margin: 0;
+    	border: 1px solid #000;
+	    border-radius: 0 20% 0 20%;
+    }
+
+    .plans ul li {
+    	letter-spacing: 0;
+	    word-spacing: 1px;
+	    margin-bottom: 6px;
+	    font-size: 90%;
+    }
+
+    .contact-form {
+    	width: 70%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+
+    section { 
+        padding: 40px 0; 
+    }
+
+    .head-of-page {
+    	width: 100%;
+    	padding: 0 2%;
+    	margin-top: 20%;
+    }
+
+    .row {
+    	padding: 0 2%;
+    }
+
+    .features-para {
+	    width: 85%;
+	    margin-left: 10%;
+	    font-size: 105%;
+    }
+
+    .description p {
+    	font-size: 105%;
+    } 
+
+    .box:last-child {
+    	margin-top: 27px;
+    }
+
+    .steps p {
+    	font-size: 100%;
+    }
+
+    .phone-screen {
+    	width: 80%;
+    }
+
+    .btn-app img {
+        height: 30px;
+        width: auto;
+    }
+
+    .plans {
+    	width: 90%;
+    	margin: 0;
+    	border: 1px solid #000;
+	    border-radius: 0 20% 0 20%;
+    }
+
+    .plans ul li {
+    	letter-spacing: 0;
+	    word-spacing: 1px;
+	    margin-bottom: 6px;
+	    font-size: 90%;
+    }
+
+    footer {
+	    font-size: 100%;
+	    padding: 20px;
+    }
+
+    .sticky {
+        height: 15vh;
+    }
+
+    .sticky .nav-ul {
+        margin-top: -10px;
+        padding-top: 0;
+    }
+
+    .sticky .nav-ul li a:link,
+    .sticky .nav-ul li a:visited {
+        padding-top: -10px;
+    }
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 12px;
+	}
+
+	section {
+		padding: 20px 0;
+	}
+
+	.head-of-page {
+    	width: 100%;
+    	padding: 0 2%;
+    	margin-top: 20%;
+    }
+
+    .row {
+    	padding: 0 2%;
+    }
+
+    .steps {
+    	margin-bottom: 40px;
+    }
+
+    .contact-form {
+    	width: 100%;
+    	font-size: 110%;
+    }
+
+    .sticky {
+        height: 15vh;
+    }
+
+    .sticky .nav-ul {
+        margin-top: -10px;
+        padding-top: 0;
+    }
+
+    .sticky .nav-ul li a:link,
+    .sticky .nav-ul li a:visited {
+        padding-top: -10px;
+    }
+
+}
+
+
+
+
